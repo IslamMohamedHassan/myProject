@@ -1,0 +1,30 @@
+.blog {
+  
+  margin-top: 100px !important;
+  
+
+}
+.text,.title{
+  color: #3d2877;
+  margin-bottom: 30px;
+}
+.btnMore{
+  background-color: #3d2877 !important;
+  color: white !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.my-card:hover {
+  transform: translateY(-5px) ;
+  transition: ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.my-card:hover .title {
+  color: rgb(30, 27, 214);
+}
+
+.my-card:hover .card-img-wrapper {
+  opacity: 0.8;
+}

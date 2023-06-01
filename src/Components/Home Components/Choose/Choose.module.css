@@ -1,0 +1,38 @@
+
+h2 {
+    color: hsl(257, 45%, 58%);
+
+}
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.choose ul {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+.choose  ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.choose ul li h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.choose ul li p {
+    font-size: 12px;
+}
+.choose ul .right {
+        position: relative;
+        right: 25px;
+}
+.choose ul .left {
+    position: relative;
+    left: 25px;
+}

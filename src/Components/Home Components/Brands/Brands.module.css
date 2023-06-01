@@ -1,0 +1,46 @@
+h2 {
+    text-align: center;
+    color: hsl(257, 45%, 58%);
+    font-weight: bold;
+    margin-bottom: 3%;
+
+}
+
+.brands {
+    --gap: 1rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    padding: 20px;
+  }
+  
+  .brands .brand {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap);
+    min-width: 100%;
+    animation: scroll 45s linear infinite;
+  }
+  .brands .brand img {
+    filter: grayscale(3);
+    transition: 1s;
+    cursor: pointer;
+  }
+  .brands:hover .brand {
+    animation-play-state: paused;
+
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-120% - var(--gap)));
+    }
+  }
+
+  

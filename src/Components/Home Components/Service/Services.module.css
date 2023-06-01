@@ -1,0 +1,18 @@
+.confirm {
+    margin-top: 10px;
+    display: block;
+    padding: 5px 50px;
+    border: none;
+    background-color: hsl(256, 50%, 31%);
+    color: white;
+    font-weight: bold;
+
+}
+select {
+    margin-left: 10px;
+}
+.confirm, .inputs {
+    border-radius: 30px !important;
+    border: 2px solid hsl(256, 50%, 31%);
+
+}

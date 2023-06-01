@@ -1,0 +1,48 @@
+.blog {
+    margin-top: 100px !important;
+  }
+  .text,.title{
+    color: #8065c4;
+    margin-bottom: 30px;
+  }
+  .card-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: stretch !important;
+    height: 100%;
+  }
+  .holder {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+  }
+  .btnMore{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff !important;
+    background-color: #8065c4 !important;
+    border:2px solid transparent !important;
+
+  }
+  .btnMore:hover{
+    color: #8065c4 !important;
+    background-color: #fff !important;
+    border:2px solid #8065c4 !important;
+
+
+    
+  }
+  
+  .my-card:hover {
+    transform: translateY(-5px) ;
+    transition: ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .my-card:hover .title {
+    color:#3d2877;
+  }
+  
+  .my-card:hover .card-img-wrapper {
+    opacity: 0.8;
+  }
